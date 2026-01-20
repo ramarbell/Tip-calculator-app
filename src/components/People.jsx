@@ -1,3 +1,5 @@
+import iconPersonUrl from "../images/icon-person.svg";
+
 function People({ numPeople, onPeopleChange, peopleError }) {
   return (
     <>
@@ -14,7 +16,7 @@ function People({ numPeople, onPeopleChange, peopleError }) {
           onChange={onPeopleChange}
         />
         <span>
-          <img src={"/images/icon-person.svg"} alt="person icon" />
+          <img src={iconPersonUrl} alt="person icon" />
         </span>
       </div>
       <div>{peopleError && <p className="error-text">{peopleError}</p>}</div>

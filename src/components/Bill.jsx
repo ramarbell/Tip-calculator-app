@@ -1,3 +1,5 @@
+import iconDollarUrl from "../images/icon-dollar.svg";
+
 function Bill({ billValue, setBillValue }) {
   return (
     <div className="bill-box">
@@ -18,7 +20,7 @@ function Bill({ billValue, setBillValue }) {
         }}
       />
       <span>
-        <img src={"/images/icon-dollar.svg"} alt="dollar icon" />
+        <img src={iconDollarUrl} alt="dollar icon" />
       </span>
     </div>
   );
